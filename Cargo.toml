@@ -1,0 +1,18 @@
+[package]
+name = "WikipediaReader"
+version = "0.1.0"
+authors = ["Joshua Karns <jkarns275@gmail.com>"]
+
+[dependencies]
+select = "0.4.0"
+hyper = "*"
+cfile-rs = "0.3.3"
+random_access_file = "0.3.3"
+hyper-native-tls = "0.2.2"
+regex = "0.2"
+lazy_static = "0.2"
+router = "*"
+params = "*"
+
+[dependencies.iron]
+version = "*"
