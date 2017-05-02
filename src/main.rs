@@ -397,8 +397,8 @@ fn server() {
         .replace("/* % List2 % */", list2.as_str());
     let page = Arc::new(RwLock::new(page_string));
     let whole_page = Arc::new(RwLock::new(include_str!("../html/graph.html").to_string()));
-    let script = Arc::new(RwLock::new(include_str!("../js/script.js").to_string()));
-    let whole_script = Arc::new(RwLock::new(include_str!("../js/whole_graph_script.js").to_string()));
+    let script = Arc::new(RwLock::new(include_str!("../js/script").to_string()));
+    let whole_script = Arc::new(RwLock::new(include_str!("../js/whole_graph_script").to_string()));
     let graph = Arc::new(RwLock::new(graph));
     let graph_clone = graph.clone();
 
